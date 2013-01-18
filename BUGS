@@ -1,0 +1,24 @@
+=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x
+
+Em alguns sistemas, o programa fortune não se encontra na variável
+PATH do usuário root, fazendo com que o instalador não conclua a
+instalação com sucesso. Até agora foi relatado que o sistema Debian
+GNU/Linux possui essa característica.
+
+Solução: colocar o caminho do fortune na variável PATH. O instalador
+poderia tentar detectar o caminho do fortune, mas por questões de
+segurança isso não é feito.
+
+Se você tiver absoluta certeza de que o fortune é o fortune, execute o
+seguinte comando (substituindo ``/caminho/do/fortune'' pelo caminho
+correto, obviamente):
+
+export PATH=$PATH:/caminho/do/fortune  # no Bash
+
+=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x
+
+Há muitas frases idiotas.
+
+=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x
+
+Mario
