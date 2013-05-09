@@ -1,0 +1,240 @@
+fortunes-mario (0.20-8) unstable; urgency=low
+
+  * Updated policy to 3.9.44
+  * Updated source format to 3.0.
+  * Changed build method to debhelper.
+
+ -- Fernando Ike de Oliveira <fike@midstorm.org>  Thu, 09 May 2013 14:56:27 -0300
+
+fortunes-mario (0.20-7) unstable; urgency=low
+
+  * Re-fix syntax URL of the watch files (Closes: #450248)
+  * Added Homepage control field.
+
+ -- Fernando Ike de Oliveira <fike@midstorm.org>  Sun, 08 Jun 2008 21:58:18 -0300
+
+fortunes-mario (0.20-6) unstable; urgency=low
+
+  * Fix syntax URL to watch files (closes: #450248)
+
+ -- Fernando Ike de Oliveira <fike@midstorm.org>  Wed, 12 Dec 2007 15:26:31 -0200
+
+fortunes-mario (0.20-5) unstable; urgency=low
+
+  * Fix bug (Closes: 403251) 
+
+ -- Fernando Ike de Oliveira <fike@midstorm.org>  Sun, 22 Apr 2007 18:43:50 -0300
+
+fortunes-mario (0.20-4) unstable; urgency=low
+
+  * Removed control.in and cleaned up rules file since update-control is
+    useless now.
+  * Move fortune-mod to build-depends-indep field.
+
+ -- Otavio Salvador <otavio@debian.org>  Sun,  1 Oct 2006 00:02:39 -0300
+
+fortunes-mario (0.20-3) unstable; urgency=low
+
+  * Update the packaging, now conforming to policy version 3.7.2
+  * Fix Typo corrections (Closes: #305693) 
+  * Update address FSF in debian/copyright
+
+ -- Fernando Ike de Oliveira <fike@midstorm.org>  Thu, 20 Jul 2006 16:51:08 -0300
+
+fortunes-mario (0.20-2) UNRELEASED; urgency=low
+
+  * Update the packaging, now conforming to policy version 3.6.2.1.
+  * Convert debian/changelog to UTF-8 since this is need to follow Debian
+    Policy.
+  * Convert to use cdbs for packaging.
+
+ -- Otavio Salvador <otavio@debian.org>  Thu, 25 Aug 2005 21:04:33 -0300
+
+fortunes-mario (0.20-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update the packaging, now conforming to policy version 3.6.1.
+  * debian/watch:
+    - updated to version 2;
+    - changed to new location (upstream moved the file).
+  * debian/control: change the Standards-Version field to 3.6.1.
+
+ -- Otavio Salvador <otavio@debian.org>  Thu, 30 Oct 2003 12:06:42 -0200
+
+fortunes-mario (0.19-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control: Updated Build-Depends-Indep to depends of
+    debhelper >= 4.
+  * debian/compat: set the compatibility level to 4.
+  * debian/rules: removed the DH_COMPAT variable, moved to debian/compat.
+
+ -- Otavio Salvador <otavio@debian.org>  Sat,  8 Mar 2003 17:23:52 -0300
+
+fortunes-mario (0.18-1) unstable; urgency=low
+
+  * New upstream release
+  * Update the packaging, now conforming to policy version 3.5.8
+
+ -- Otavio Salvador <otavio@debian.org>  Thu, 21 Nov 2002 16:26:10 -0200
+
+fortunes-mario (0.17-2) unstable; urgency=low
+
+  * Forgot change the control file for new policy version
+  * Added 'debhelper' in Build-Depends-Indep (closes: #164080)
+
+ -- Otavio Salvador <otavio@debian.org>  Thu, 10 Oct 2002 22:47:56 -0300
+
+fortunes-mario (0.17-1) unstable; urgency=low
+
+  * New upstream release
+  * Updated the package to policy version 3.5.7
+
+ -- Otavio Salvador <otavio@debian.org>  Mon, 16 Sep 2002 12:48:58 -0300
+
+fortunes-mario (0.16-2) unstable; urgency=low
+
+  * Added the CREDITOS file in package
+
+ -- Otavio Salvador <otavio@debian.org>  Sat, 13 Jul 2002 22:32:24 -0300
+
+fortunes-mario (0.16-1) unstable; urgency=low
+
+  * New upstream release
+  * Removed wrong dependency on Build-Depends-Indep of debconf.
+
+ -- Otavio Salvador <otavio@debian.org>  Sat, 13 Jul 2002 19:56:42 -0300
+
+fortunes-mario (0.15-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Otavio Salvador <otavio@debian.org>  Mon, 20 May 2002 12:59:25 -0300
+
+fortunes-mario (0.14-2) unstable; urgency=low
+
+  * Added 'DICAS' in /usr/share/doc/fortunes-mario.
+
+ -- Otavio Salvador <otavio@debian.org>  Fri, 17 May 2002 13:28:59 -0300
+
+fortunes-mario (0.14-1) unstable; urgency=low
+
+  * New upstream release
+    In this version the distribution scheme was change to:
+      - mario.anagramas
+      - mario.arteascii
+      - mario.computadores
+      - mario.geral
+      - mario.palindromos
+      - mario.piadas
+    Now this is split in sections because of number of cookies.
+
+
+ -- Otavio Salvador <otavio@debian.org>  Mon, 29 Apr 2002 13:40:03 -0300
+
+fortunes-mario (0.12-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Otavio Salvador <otavio@debian.org>  Tue,  9 Apr 2002 14:33:36 -0300
+
+fortunes-mario (0.11-2) unstable; urgency=low
+
+  * removed templates file.
+
+ -- Otavio Salvador <otavio@debian.org>  Thu, 28 Mar 2002 22:27:48 -0300
+
+fortunes-mario (0.11-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Otavio Salvador <otavio@debian.org>  Wed, 27 Mar 2002 23:28:05 -0300
+
+fortunes-mario (0.10-4) unstable; urgency=low
+
+  * Changed the maintainer to Otavio Salvador <otavio@debian.org> because
+    your NM process is complete :-)
+  * Removed debconf from dependencies
+
+ -- Otavio Salvador <otavio@debian.org>  Sat, 23 Mar 2002 12:03:51 -0300
+
+fortunes-mario (0.10-3) unstable; urgency=high
+
+  * Removed Debconf script because this violate some rules of Debian
+    Policy (closes: #137484, #137649)
+
+ -- Otavio Real Salvador <otavio@freedom.ind.br>  Wed, 13 Mar 2002 14:27:28 -0300
+
+fortunes-mario (0.10-2) unstable; urgency=low
+
+  * (closes: #136347) Added Spanish translation of Debconf questions
+    (Thanks to Carlos Valdivia Yagüe <valyag@hotpop.com>).
+  * (closes: #136468) Before display a phrase, check if the shell is
+    interactive (Thanks to Michel Loos <loos@iq.usp.br>).
+
+ -- Otavio Real Salvador <otavio@freedom.ind.br>  Sat,  2 Mar 2002 14:26:18 -0300
+
+fortunes-mario (0.10-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Otavio Real Salvador <otavio@freedom.ind.br>  Thu, 14 Feb 2002 11:05:31 -0200
+
+fortunes-mario (0.9-3) unstable; urgency=low
+
+  * Changed back priority of question on Debconf to medium.
+
+ -- Otavio Real Salvador <otavio@freedom.ind.br>  Sun, 10 Feb 2002 19:29:17 -0200
+
+fortunes-mario (0.9-2) unstable; urgency=low
+
+  * Solve some problems in postinst and prerm script (Thanks to Gustavo
+    Noronha Silva <kov@debian.org>)
+  * Changed the priority of question on Debconf to low.  
+
+ -- Otavio Real Salvador <otavio@freedom.ind.br>  Sun, 10 Feb 2002 15:21:35 -0200
+
+fortunes-mario (0.9-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Otavio Real Salvador <otavio@freedom.ind.br>  Fri,  8 Feb 2002 13:32:00 -0200
+
+fortunes-mario (0.8-5) unstable; urgency=low
+
+  * Create the debconf interface.
+
+ -- Otavio Real Salvador <otavio@freedom.ind.br>  Thu,  7 Feb 2002 21:22:20 -0200
+
+fortunes-mario (0.8-4) unstable; urgency=low
+
+  * Force mode 644 in mario.dat file
+
+ -- Otavio Real Salvador <otavio@freedom.ind.br>  Fri,  1 Feb 2002 17:29:40 -0200
+
+fortunes-mario (0.8-3) unstable; urgency=low
+
+  * Improve the description of package, again.
+
+ -- Otavio Real Salvador <otavio@freedom.ind.br>  Thu, 31 Jan 2002 21:41:11 -0200
+
+fortunes-mario (0.8-2) unstable; urgency=low
+
+  * Improve the description of package. (Thanks to Hamish Moffatt
+    <hamish@debian.org> and Jens Bech Madsen <jbm@oncable.dk>)
+
+ -- Otavio Real Salvador <otavio@freedom.ind.br>  Thu, 31 Jan 2002 13:00:57 -0200
+
+fortunes-mario (0.8-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Otavio Real Salvador <otavio@freedom.ind.br>  Thu, 31 Jan 2002 10:26:04 -0200
+
+fortunes-mario (0.7-1) unstable; urgency=low
+
+  * This package has been renamed to fortunes-mario to have a name
+    similar to other fortunes packages.
+  * Initial upload (closes: #131202).
+
+ -- Otavio Real Salvador <otavio@freedom.ind.br>  Mon, 28 Jan 2002 18:30:53 -0200
