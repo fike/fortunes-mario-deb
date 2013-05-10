@@ -1,0 +1,35 @@
+Para gerar o livro do mario_fortunes basta executar
+
+$ make
+
+e serão gerados os seguintes arquivos formatados e prontos para serem
+impressos em folhas de papel A4: 
+
+mario_fortunes-livro.pdf
+mario_fortunes-booklet-frente.pdf
+mario_fortunes-booklet-verso.pdf
+
+Obs.: imprimindo o arquivo mario_fortunes-booklet-verso.pdf atrás das
+folhas onde foi impresso o arquivo mario_fortunes-booklet-frente.pdf
+tem-se um volume menor de papel. As folhas encaixam-se da mesma forma
+que os tradicionais ``gibis'' (também pode-se cortar as folhas ao meio
+e encaderná-las como livros).
+
+
+REQUISITOS
+
+Os seguintes softwares são necessários para gerar o livro de
+``fortunes'':
+
+- make
+- [pdf]latex
+- python
+- pstops
+- dvips
+- ps2pdf
+- pdftops
+
+Esses softwares normalmente são parte de qualquer distribuição de
+Linux ou BSD.
+
+Mario
