@@ -1,8 +1,13 @@
 fortunes-mario (0.20-8) unstable; urgency=low
 
-  * Updated policy to 3.9.44
-  * Updated source format to 3.0.
+  * Updated policy to 3.9.4
+  * Moved to source version 3.0 (quilt).
   * Changed build method to debhelper.
+  * debian/compat: 
+  	- Updated to 9.
+  * debian/control:
+  	- Updated to debhelper 9.
+    - Added Vcs* fileds
 
  -- Fernando Ike de Oliveira <fike@midstorm.org>  Thu, 09 May 2013 14:56:27 -0300
 

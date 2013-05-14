@@ -6,7 +6,9 @@ Uploaders: Fernando Ike de Oliveira <fike@midstorm.org>
 Build-Depends: debhelper (>= 9.0.0)
 Build-Depends-Indep: fortune-mod (>= 1.99.1-6)
 Standards-Version: 3.9.4
-Homepage: https://github.com/fike/fortunes-mario
+Homepage: http://github.com/fike/fortunes-mario-deb
+Vcs-Git: git://github.com/fike/fortunes-debian-deb.git
+Vcs-Browser: http://github.com/fike/fortunes-mario-deb.git
 
 Package: fortunes-mario
 Architecture: all
