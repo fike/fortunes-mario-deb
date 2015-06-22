@@ -44,7 +44,7 @@
               - Atualizado o arquivo CREDITOS
               - Atualizado o arquivo DICAS
               - Corrigido o bug do TAB (os TABs foram transformados em
-                espaços)
+                espaÃ§os)
               - Adicionadas 167 frases
                   * mario.arteascii     (3 frases)
                   * mario.computadores  (23 frases)
@@ -53,8 +53,8 @@
 
 
 2002 Jul, 10  - mario_fortunes-0.16
-              - Incluído o arquivo CREDITOS
-              - Incluído o arquivo mario.gauchismos
+              - IncluÃ­do o arquivo CREDITOS
+              - IncluÃ­do o arquivo mario.gauchismos
               - Atualizado o arquivo DICAS
               - Atualizado o instalador
               - Atualizado o arquivo livro/Makefile
@@ -72,11 +72,11 @@
                   * mario.computadores  (30 frases)
                   * mario.geral         (259 frases)
                   * mario.piadas        (9 frases)
-              - Incluído o diretório ``livro'' que contém um script e
-                um Makefile para a geração de um livro a partir dos
+              - IncluÃ­do o diretÃ³rio ``livro'' que contÃ©m um script e
+                um Makefile para a geraÃ§Ã£o de um livro a partir dos
                 arquivos do mario_fortunes.
               - O mario_fortunes passa a ser protegido pela GPL
-                (incluído o arquivo LICENCA).
+                (incluÃ­do o arquivo LICENCA).
               - Atualizado o arquivo DICAS
 
 2002 Apr, 28  - mario_fortunes-0.14
@@ -88,7 +88,7 @@
                   * mario.piadas        (135 frases)
 
 2002 Apr, 27  - mario_fortunes-0.13
-              - Modificações na estrutura de arquivos. O mario_fortunes é
+              - ModificaÃ§Ãµes na estrutura de arquivos. O mario_fortunes Ã©
                 dividido nos seguintes arquivos:
                   * mario.anagramas     (0 frases)
                   * mario.arteascii     (11 frases)
@@ -111,8 +111,8 @@
 
 2002 Fev, 07: - mario_fortunes-0.9
               - Adicionadas 25 frases
-              - Incluídas no arquivo DICAS algumas considerações sobre o
-                pacote para a distribuição Slackware
+              - IncluÃ­das no arquivo DICAS algumas consideraÃ§Ãµes sobre o
+                pacote para a distribuiÃ§Ã£o Slackware
 
 2002 Jan, 31: - mario_fortunes-0.8
               - Adicionadas 32 frases
@@ -129,14 +129,14 @@
 
 2001 Dec, 28: - mario_fortunes-0.4
               - Adicionadas 34 frases.
-              - Adicionado o arquivo BUGS à distribuição
+              - Adicionado o arquivo BUGS Ã  distribuiÃ§Ã£o
               - Adicionada 1 dica ao arquivo DICAS
 
 2001 Dec, 03: - mario_fortunes-0.3
               - Adicionadas 43 frases.
               - O instalador ganha uma interface ``for dummies'' com o
                 dialog ou Xdialog
-              - Adicionado o arquivo DICAS à distribuição
+              - Adicionado o arquivo DICAS Ã  distribuiÃ§Ã£o
 
 2001 Nov, 28: - mario_fortunes-0.2.1
               - O instalador detecta o diretorio dos arquivos de frases e

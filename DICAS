@@ -1,5 +1,5 @@
 
-Esse arquivo contÈm sugestıes de como utilizar o mario_fortunes.
+Esse arquivo cont√©m sugest√µes de como utilizar o mario_fortunes.
 
 =x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x
 
@@ -9,17 +9,17 @@ pode-se executar
 $ xlock -mode nose -program "fortune mario.geral"
 
 O mesmo pode ser feito para os outros arquivos de frases (talvez o
-mario.arteascii fique esquisito). Pode-se tambÈm colocar mais de um
+mario.arteascii fique esquisito). Pode-se tamb√©m colocar mais de um
 arquivo:
 
 $ xlock -mode nose -program "fortune mario.{geral,anagramas}"
 
 =x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x
 
-… possÌvel receber as frases do mario_fortunes atravÈs do telefone
-celular. Se vocÍ possui um celular da Claro ou da Telefonica, acesse
+√â poss√≠vel receber as frases do mario_fortunes atrav√©s do telefone
+celular. Se voc√™ possui um celular da Claro ou da Telefonica, acesse
 http://www.inf.ufrgs.br/~rreal/celfortune.html para saber como
-proceder para receber as frases. O serviÁo È mantido por Rodrigo Real
+proceder para receber as frases. O servi√ßo √© mantido por Rodrigo Real
 <rreal@inf.ufrgs.br>.
 
 =x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x
@@ -28,22 +28,22 @@ Para gerar um livro com as frases do mario_fortunes, execute
 
 $ make
 
-no diretÛrio ``livro'' que acompanha a distribuiÁ„o. Mais detalhes no
-arquivo LEIAME que se encontra no diretÛrio ``livro''.
+no diret√≥rio ``livro'' que acompanha a distribui√ß√£o. Mais detalhes no
+arquivo LEIAME que se encontra no diret√≥rio ``livro''.
 
 =x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x
 
-- o arquivo de frases do pacote para a distribuiÁ„o Slackware tem o
-n˙mero da vers„o como parte do nome (ex.: mario.fortunes-0.9). Em algumas
-dicas deve-se substituir mario.fortunes por mario.fortunes-<vers„o>.
+- o arquivo de frases do pacote para a distribui√ß√£o Slackware tem o
+n√∫mero da vers√£o como parte do nome (ex.: mario.fortunes-0.9). Em algumas
+dicas deve-se substituir mario.fortunes por mario.fortunes-<vers√£o>.
 
 =x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x
 
-Para que o instalador seja executado em uma janela gr·fica, certifique-se
-de que o Xdialog esteja instalado e que vocÍ esteja executando-o no
-ambiente gr·fico. Caso ele n„o esteja instalado ser·
-usado o dialog como interface padr„o. Se vocÍ quiser instalar o Xdialog,
-ele est· disponÌvel em http://xdialog.free.fr.
+Para que o instalador seja executado em uma janela gr√°fica, certifique-se
+de que o Xdialog esteja instalado e que voc√™ esteja executando-o no
+ambiente gr√°fico. Caso ele n√£o esteja instalado ser√°
+usado o dialog como interface padr√£o. Se voc√™ quiser instalar o Xdialog,
+ele est√° dispon√≠vel em http://xdialog.free.fr.
 
 =x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x
 
@@ -65,12 +65,12 @@ Isso fara' com que o xterm leia o .bash_profile e execute o fortune
 
 =x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x
 
-Essa È para usu·rio compulsivos do fortune. Abaixo est· um script que
+Essa √© para usu√°rio compulsivos do fortune. Abaixo est√° um script que
 permanentemente executa o fortune, alternando as frases de tempos em
 tempos. Copie o codigo abaixo para um arquivo mfortunes.sh, por exemplo, e
-atribua permiss„o para execuÁ„o (chmod 755 mfortunes.sh).
+atribua permiss√£o para execu√ß√£o (chmod 755 mfortunes.sh).
 
-----------8<----------------- (n„o copie essa linha)
+----------8<----------------- (n√£o copie essa linha)
 
 #!/bin/sh
 TIME=10 # intervalo de tempo entre duas frases consecutivas
@@ -82,13 +82,13 @@ do
    clear
 done
 
-----------8<----------------- (n„o copie essa linha)
+----------8<----------------- (n√£o copie essa linha)
 
 Ele pode ser executado, por exemplo, dentro de um xterm:
 
 $ xterm -title "mario_fortunes" -bg black -fg green -e ./mfortunes.sh
 
-Onde mfortunes.sh È o script mostrado acima.
+Onde mfortunes.sh √© o script mostrado acima.
 
 
 Mario

@@ -4,7 +4,7 @@
 # se encontram em PATH
 esta_instalado(){
     prog=$1
-    echo "Verificando se $prog est· instalado ..."
+    echo "Verificando se $prog est√° instalado ..."
     for caminho in ${PATH//:/ }
         do
             if [ -x "$caminho/$prog" ]; then
@@ -12,7 +12,7 @@ esta_instalado(){
                 return 0
             fi
         done
-    echo "     $prog n„o foi encontrado"
+    echo "     $prog n√£o foi encontrado"
     return 1
 }
 
@@ -27,7 +27,7 @@ mf_exit(){
 # Saida sem erro
 saida(){
     $DIALOG --clear
-    $DIALOG --msgbox "A instalaÁ„o N√O foi concluÌda com sucesso." 24 80
+    $DIALOG --msgbox "A instala√ß√£o N√ÉO foi conclu√≠da com sucesso." 24 80
     $DIALOG --clear
     mf_exit 1
 }
@@ -35,7 +35,7 @@ saida(){
 # Saida por causa de erro
 saida_por_erro(){
     $DIALOG --clear
-    $DIALOG --msgbox "Ocorreu um erro.\n\nA instalaÁ„o N√O foi concluÌda com sucesso.\n\n$1" 24 80
+    $DIALOG --msgbox "Ocorreu um erro.\n\nA instala√ß√£o N√ÉO foi conclu√≠da com sucesso.\n\n$1" 24 80
     $DIALOG --clear
     mf_exit 1
 }
@@ -85,7 +85,7 @@ do
 done
 CAMINHOS="$CAMINHOS $(( $CONT + 1 )) Outro"
 
-$DIALOG --menu "Escolha o diretÛrio para instalar o arquivo de frases" \
+$DIALOG --menu "Escolha o diret√≥rio para instalar o arquivo de frases" \
         24 80 15 \
         $CAMINHOS 2> $TMP
 
@@ -99,12 +99,12 @@ if [ `cat $TMP` = `expr $CONT + 1` ]
 then
     cat /dev/null > $TMP
     $DIALOG --inputbox \
-       "Digite o diretÛrio para instalar o arquivo de frases" \
+       "Digite o diret√≥rio para instalar o arquivo de frases" \
        24 80 2> $TMP
        echo -e "\ndigitou" >> $TMP
 fi
 
-[ -z `head -n1 $TMP` ] && saida_por_erro "VocÍ deve especificar o diretÛrio onde quer instalar o mario_fortunes."
+[ -z `head -n1 $TMP` ] && saida_por_erro "Voc√™ deve especificar o diret√≥rio onde quer instalar o mario_fortunes."
 
 
 # Se foi escolhido um dos caminhos sugeridos, coloca-se ele em $TMP
@@ -123,7 +123,7 @@ fi
 # Se o diretorio nao existe, da'-se um jeito
 [ -d `cat $TMP` ] || {
     $DIALOG --clear
-    $DIALOG --menu "O diretÛrio especificado n„o existe. Deseja cri·-lo?" \
+    $DIALOG --menu "O diret√≥rio especificado n√£o existe. Deseja cri√°-lo?" \
 	    24 80 15 \
 	    1 Sim \
 	    2 Nao \
@@ -150,7 +150,7 @@ done
 
 # Mensagens finais
 $DIALOG --clear
-$DIALOG --msgbox "A instalaÁ„o do mario_fortunes foi concluÌda com sucesso.\n\nVeja o arquivo DICAS para obter idÈias de como usar o mario_fortunes.\n\nSugestıes de frases podem ser enviadas para mario@proxy.furg.br." 24 80
+$DIALOG --msgbox "A instala√ß√£o do mario_fortunes foi conclu√≠da com sucesso.\n\nVeja o arquivo DICAS para obter id√©ias de como usar o mario_fortunes.\n\nSugest√µes de frases podem ser enviadas para mario@proxy.furg.br." 24 80
 
 $DIALOG $ALIGN --msgbox "mario_fortunes: (mario.geral)\n\n`fortune $DIR/mario.geral`" 24 80
 
