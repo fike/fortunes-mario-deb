@@ -24,7 +24,7 @@ proceder para receber as frases. O serviço é mantido por Rodrigo Real
 
 =x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x
 
-Para gerar um livro com as frases do mario_fortunes, execute 
+Para gerar um livro com as frases do mario_fortunes, execute
 
 $ make
 
@@ -33,8 +33,8 @@ arquivo LEIAME que se encontra no diretório ``livro''.
 
 =x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x
 
-- o arquivo de frases do pacote para a distribuição Slackware tem o 
-número da versão como parte do nome (ex.: mario.fortunes-0.9). Em algumas 
+- o arquivo de frases do pacote para a distribuição Slackware tem o
+número da versão como parte do nome (ex.: mario.fortunes-0.9). Em algumas
 dicas deve-se substituir mario.fortunes por mario.fortunes-<versão>.
 
 =x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x
@@ -65,9 +65,9 @@ Isso fara' com que o xterm leia o .bash_profile e execute o fortune
 
 =x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x
 
-Essa é para usuário compulsivos do fortune. Abaixo está um script que 
-permanentemente executa o fortune, alternando as frases de tempos em 
-tempos. Copie o codigo abaixo para um arquivo mfortunes.sh, por exemplo, e 
+Essa é para usuário compulsivos do fortune. Abaixo está um script que
+permanentemente executa o fortune, alternando as frases de tempos em
+tempos. Copie o codigo abaixo para um arquivo mfortunes.sh, por exemplo, e
 atribua permissão para execução (chmod 755 mfortunes.sh).
 
 ----------8<----------------- (não copie essa linha)

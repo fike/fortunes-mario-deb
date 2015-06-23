@@ -3,7 +3,7 @@ Para gerar o livro do mario_fortunes basta executar
 $ make
 
 e serão gerados os seguintes arquivos formatados e prontos para serem
-impressos em folhas de papel A4: 
+impressos em folhas de papel A4:
 
 mario_fortunes-livro.pdf
 mario_fortunes-booklet-frente.pdf

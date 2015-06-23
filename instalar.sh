@@ -95,7 +95,7 @@ $DIALOG --clear
 
 # Se o usuario prefere outro diretorio que nao um dos apresentados,
 # deve-se deixar que ele digite um caminho
-if [ `cat $TMP` = `expr $CONT + 1` ] 
+if [ `cat $TMP` = `expr $CONT + 1` ]
 then
     cat /dev/null > $TMP
     $DIALOG --inputbox \
@@ -118,7 +118,7 @@ else
     CAMINHO=`head -n1 $TMP`
     echo $CAMINHO > $TMP
 fi
-    
+
 
 # Se o diretorio nao existe, da'-se um jeito
 [ -d `cat $TMP` ] || {
@@ -134,7 +134,7 @@ fi
     if [ `cat $OPT` = 1 ]
     then
 	mkdir -p `cat $TMP` 2> $ERRO || saida_por_erro "`cat $ERRO`"
-    else 
+    else
 	saida
     fi
 }
@@ -156,5 +156,3 @@ $DIALOG $ALIGN --msgbox "mario_fortunes: (mario.geral)\n\n`fortune $DIR/mario.ge
 
 # Tchau
 mf_exit 0
-
-

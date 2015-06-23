@@ -58,7 +58,7 @@ header = r'''
 
 tex_file = open('mario_fortunes-livro.tex', 'w')
 tex_file.write(header)
-    
+
 for file in sys.argv[1:]:
 
     fortune_file = open(file, 'r')
@@ -76,7 +76,7 @@ for file in sys.argv[1:]:
     else:
         tex_file.write(bverbatim + '\n')
 
-        
+
     for line in fortune_file.readlines():
         if line == '%\n':
 
@@ -84,7 +84,7 @@ for file in sys.argv[1:]:
                 tex_file.write(r'\end{verbatim}' + '\n')
             else:
                 tex_file.write(r'\end{Verbatim}' + '\n')
-                
+
             if section_name != 'mario.arteascii':
                 tex_file.write(r'\separador' + '\n')
 
@@ -109,7 +109,7 @@ for file in sys.argv[1:]:
     else:
         tex_file.write('\n' + r'\end{Verbatim}' + '\n' + r'\end{minipage}' + '\n')
     fortune_file.close()
-                
+
 
 
 tex_file.write(r'\chapter{Créditos}' + '\n\n')
