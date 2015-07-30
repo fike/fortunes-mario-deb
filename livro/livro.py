@@ -40,7 +40,7 @@ header = r'''
 \vspace{\stretch{1}}
 \noindent\hspace*{\centeroffset}\makebox[0pt][l]{\begin{minipage}{\textwidth}
 \flushright
-{\texttt{vers„o 0.20}\\\bfseries Mario Domenech Goulart}
+{\texttt{vers√£o 0.20}\\\bfseries Mario Domenech Goulart}
 \end{minipage}}
 
 \vspace{\stretch{2}}
@@ -48,7 +48,7 @@ header = r'''
 
 \tableofcontents
 
-\chapter*{Pref·cio}
+\chapter*{Pref√°cio}
 \VerbatimInput[fontfamily=times,fontshape=it]{../LEIAME}
 
 \mainmatter
@@ -58,7 +58,7 @@ header = r'''
 
 tex_file = open('mario_fortunes-livro.tex', 'w')
 tex_file.write(header)
-    
+
 for file in sys.argv[1:]:
 
     fortune_file = open(file, 'r')
@@ -76,7 +76,7 @@ for file in sys.argv[1:]:
     else:
         tex_file.write(bverbatim + '\n')
 
-        
+
     for line in fortune_file.readlines():
         if line == '%\n':
 
@@ -84,7 +84,7 @@ for file in sys.argv[1:]:
                 tex_file.write(r'\end{verbatim}' + '\n')
             else:
                 tex_file.write(r'\end{Verbatim}' + '\n')
-                
+
             if section_name != 'mario.arteascii':
                 tex_file.write(r'\separador' + '\n')
 
@@ -109,17 +109,17 @@ for file in sys.argv[1:]:
     else:
         tex_file.write('\n' + r'\end{Verbatim}' + '\n' + r'\end{minipage}' + '\n')
     fortune_file.close()
-                
 
 
-tex_file.write(r'\chapter{CrÈditos}' + '\n\n')
+
+tex_file.write(r'\chapter{Cr√©ditos}' + '\n\n')
 tex_file.write(r'\VerbatimInput{../CREDITOS}' + '\n\n')
 
-tex_file.write(r'\chapter{LicenÁa}' + '\n\n')
+tex_file.write(r'\chapter{Licen√ßa}' + '\n\n')
 tex_file.write(r'\fvset{fontsize=\small}' + '\n')
 tex_file.write(r'\VerbatimInput{../LICENCA}' + '\n\n')
 
-tex_file.write(r'\chapter{HistÛrico de modificaÁıes}' + '\n\n')
+tex_file.write(r'\chapter{Hist√≥rico de modifica√ß√µes}' + '\n\n')
 tex_file.write(r'\VerbatimInput{../CHANGELOG}' + '\n\n')
 
 tex_file.write(r'\chapter{Dicas}' + '\n\n')

@@ -14,8 +14,8 @@ PSTOPDF=ps2pdf
 
 tex: livro.py $(FORTUNES)
 	./livro.py $(FORTUNES)
- 
-dvi: tex 
+
+dvi: tex
 	latex $(DSTDIR)mario_fortunes-livro.tex
 	latex $(DSTDIR)mario_fortunes-livro.tex
 	latex $(DSTDIR)mario_fortunes-livro.tex
@@ -33,7 +33,7 @@ clean:
 	rm -f $(DSTDIR)*~
 	rm -f *~
 
-pdf: tex 
+pdf: tex
 	pdflatex $(DSTDIR)mario_fortunes-livro.tex
 	pdflatex $(DSTDIR)mario_fortunes-livro.tex
 	pdflatex $(DSTDIR)mario_fortunes-livro.tex

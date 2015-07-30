@@ -1,15 +1,15 @@
 =x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x
 
-Em alguns sistemas, o programa fortune n„o se encontra na vari·vel
-PATH do usu·rio root, fazendo com que o instalador n„o conclua a
-instalaÁ„o com sucesso. AtÈ agora foi relatado que o sistema Debian
-GNU/Linux possui essa caracterÌstica.
+Em alguns sistemas, o programa fortune n√£o se encontra na vari√°vel
+PATH do usu√°rio root, fazendo com que o instalador n√£o conclua a
+instala√ß√£o com sucesso. At√© agora foi relatado que o sistema Debian
+GNU/Linux possui essa caracter√≠stica.
 
-SoluÁ„o: colocar o caminho do fortune na vari·vel PATH. O instalador
-poderia tentar detectar o caminho do fortune, mas por questıes de
-seguranÁa isso n„o È feito.
+Solu√ß√£o: colocar o caminho do fortune na vari√°vel PATH. O instalador
+poderia tentar detectar o caminho do fortune, mas por quest√µes de
+seguran√ßa isso n√£o √© feito.
 
-Se vocÍ tiver absoluta certeza de que o fortune È o fortune, execute o
+Se voc√™ tiver absoluta certeza de que o fortune √© o fortune, execute o
 seguinte comando (substituindo ``/caminho/do/fortune'' pelo caminho
 correto, obviamente):
 
@@ -17,7 +17,7 @@ export PATH=$PATH:/caminho/do/fortune  # no Bash
 
 =x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x
 
-H· muitas frases idiotas.
+H√° muitas frases idiotas.
 
 =x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x
 
