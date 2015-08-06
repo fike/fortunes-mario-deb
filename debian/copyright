@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 
 Files: *
@@ -10,6 +11,16 @@ Copyright: 2001-2007 Otavio Real Salvador <otavio@debian.org>
 License: GPL-2
 
 License: GPL-2
+=======
+This package was debianized by Otavio Real Salvador <otavio@freedom.ind.br> on
+Mon, 10 Dec 2001 20:35:49 -0200.
+
+It was downloaded from https://github.com/fike/fortunes-mario
+
+Copyright:
+   2001-2003 Mario Domenech Goulart <mario@proxy.furg.br>
+
+>>>>>>> 4f7e0a4563cc44b5fa9130beffd2cd5f978e6f40
    This package is free software; you can redistribute it and/or modify
    it under the terms of the GNU General Public License as published by
    the Free Software Foundation; version 2 dated June, 1991.
