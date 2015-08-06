@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+
+%:
+	
+	dh $@
+
+override_dh_auto_clean:
+	rm -f *.dat
+
+override_dh_auto_build:
+	find -name "mario.*" -exec strfile {} \;
