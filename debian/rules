@@ -1,5 +1,4 @@
 #!/usr/bin/make -f
-<<<<<<< HEAD
 
 %:
 	
@@ -10,51 +9,3 @@ override_dh_auto_clean:
 
 override_dh_auto_build:
 	find -name "mario.*" -exec strfile {} \;
-=======
-# Made with the aid of debmake, by Christoph Lameter,
-# based on the sample debian/rules file for GNU hello by Ian Jackson.
-
-pkg=fortunes-mario
-
-#export DH_VERBOSE=1
-
-DESTDIR=$(CURDIR)/debian/fortunes-mario
-
-
-
-build: build-arch build-indep 
-
-build-arch: build-stamp
-
-build-indep:  build-stamp
-
-build-stamp: $(QUILT_STAMPFN)
-	dh_testdir
-
-clean:
-	dh_testdir
-	dh_clean
-
-binary-arch: build
-
-binary-indep: build
-	dh_testdir
-	dh_installdirs
-	
-	find debian/fortunes-mario/usr/share/games/fortunes/ -name "mario.*" -exec strfile {} \;
-	dh_install
-	dh_link
-	dh_installdocs LEIAME DICAS BUGS CREDITOS LICENCA
-	dh_installchangelogs CHANGELOG 
-	dh_compress
-	dh_fixperms
-	
-	dh_gencontrol
-	dh_installdeb
-	dh_md5sums
-	dh_builddeb
-
-binary: binary-indep binary-arch
-
-.PHONY: binary binary-arch binary-indep clean checkroot
->>>>>>> 4f7e0a4563cc44b5fa9130beffd2cd5f978e6f40

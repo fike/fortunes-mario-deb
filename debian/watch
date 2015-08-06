@@ -1,6 +1,2 @@
 version=3
-<<<<<<< HEAD
 http://githubredir.debian.net/github/fike/fortunes-mario/fortunes-mario-(.*).tar.gz 
-=======
-http://githubredir.debian.net/github/fike/fortunes-mario (.*).tar.gz 
->>>>>>> 4f7e0a4563cc44b5fa9130beffd2cd5f978e6f40

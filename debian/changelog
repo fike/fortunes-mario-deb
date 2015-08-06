@@ -1,37 +1,26 @@
-<<<<<<< HEAD
 fortunes-mario (0.21-1) unstable; urgency=medium
 
   * New upstream release
 
  -- Fernando Ike <fike@midstorm.org>  Thu, 06 Aug 2015 14:44:06 -0300
 
-=======
->>>>>>> 4f7e0a4563cc44b5fa9130beffd2cd5f978e6f40
 fortunes-mario (0.20-8) unstable; urgency=low
 
   * Updated policy to 3.9.4
   * Moved to source version 3.0 (quilt).
   * Changed build method to debhelper.
-<<<<<<< HEAD
   * Fix watch file bug.
   * Remove dat files.
-=======
->>>>>>> 4f7e0a4563cc44b5fa9130beffd2cd5f978e6f40
   * debian/compat: 
   	- Updated to 9.
   * debian/control:
   	- Updated to debhelper 9.
     - Added Vcs* fileds
-<<<<<<< HEAD
   * debian/rules:
     - Simplified rules file using dh*.
   * Fix origin tarball.
 
  -- Fernando Ike de Oliveira <fike@midstorm.org>  Tue, 19 Nov 2013 08:59:04 -0200
-=======
-
- -- Fernando Ike de Oliveira <fike@midstorm.org>  Thu, 09 May 2013 14:56:27 -0300
->>>>>>> 4f7e0a4563cc44b5fa9130beffd2cd5f978e6f40
 
 fortunes-mario (0.20-7) unstable; urgency=low
 
