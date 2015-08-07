@@ -1,2 +1,3 @@
 version=3
-http://githubredir.debian.net/github/fike/fortunes-mario/fortunes-mario-(.*).tar.gz 
+opts=filenamemangle=s/.+\/v?(\d\S*)\.tar\.gz/fortunes-mario-$1\.tar\.gz/ \
+  https://github.com/fike/fortunes-mario/tags .*/v?(\d\S*)\.tar\.gz
