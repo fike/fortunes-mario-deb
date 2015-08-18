@@ -1,6 +1,16 @@
 fortunes-mario (0.21-1) unstable; urgency=medium
 
   * New upstream release
+      - Converted all files to UTF-8.
+  * debian/control:
+      - Add Vcs* fields
+      - Remove minor version in debhelper on Build-Depends field.
+  * debian/copyright:
+      - Update to copyright format 1.0.
+  * debian/docs
+      - Remove duplicate entry (CREDITOS)
+  * debian/source/options:
+      - Add tar-ignore fields. 
 
  -- Fernando Ike de Oliveira <fike@midstorm.org>  Thu, 06 Aug 2015 14:44:06 -0300
 
