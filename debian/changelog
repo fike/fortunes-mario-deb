@@ -4,11 +4,13 @@ fortunes-mario (0.21-1) unstable; urgency=medium
       - Converted all files to UTF-8.
   * debian/control:
       - Add Vcs* fields
-      - Remove minor version in debhelper on Build-Depends field.
+      - Remove minor version of debhelper on Build-Depends field.
   * debian/copyright:
       - Update to copyright format 1.0.
   * debian/docs
       - Remove duplicate entry (CREDITOS)
+  * debian/gbp.conf
+      - Add gbp.conf (git-buildpackage).
   * debian/source/options:
       - Add tar-ignore fields. 
 
