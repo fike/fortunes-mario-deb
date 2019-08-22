@@ -12,8 +12,8 @@ Vcs-Git: git://github.com/fike/fortunes-mario-deb
 
 Package: fortunes-mario
 Architecture: all
-Depends: fortune-mod (>= 1.99.1-6), 
-         python, 
+Depends: fortune-mod (>= 1.99.1-6),
+         python,
          ${misc:Depends}
 Provides: fortune-cookie-db
 Description: Fortunes files from Mario
