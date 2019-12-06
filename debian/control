@@ -3,17 +3,17 @@ Section: games
 Priority: optional
 Maintainer: Otavio Salvador <otavio@debian.org>
 Uploaders: Fernando Ike de Oliveira <fike@midstorm.org>
-Build-Depends: debhelper (>= 9)
+Build-Depends: debhelper-compat (= 12)
 Build-Depends-Indep: fortune-mod (>= 1.99.1-6)
 Standards-Version: 3.9.6
 Homepage: https://github.com/fike/fortunes-mario
-Vcs-Browser: http://github.com/fike/fortunes-mario-deb
-Vcs-Git: git://github.com/fike/fortunes-mario-deb
+Vcs-Browser: https://github.com/fike/fortunes-mario-deb
+Vcs-Git: https://github.com/fike/fortunes-mario-deb
 
 Package: fortunes-mario
 Architecture: all
-Depends: fortune-mod (>= 1.99.1-6), 
-         python, 
+Depends: fortune-mod (>= 1.99.1-6),
+         python,
          ${misc:Depends}
 Provides: fortune-cookie-db
 Description: Fortunes files from Mario
