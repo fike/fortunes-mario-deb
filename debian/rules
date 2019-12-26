@@ -5,6 +5,8 @@
 
 override_dh_auto_clean:
 	rm -f *.dat
+	cd livro && $(MAKE) clean
 
 override_dh_auto_build:
 	find -name "mario.*" -exec strfile {} \;
+	cd livro && $(MAKE)
